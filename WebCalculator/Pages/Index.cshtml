@@ -1,0 +1,24 @@
+﻿@page
+@model IndexModel
+@{
+    ViewData["Title"] = "Home page";
+}
+
+<div class="text-center">
+    <h1 class="display-4">Welcome to the Web Calculator</h1>
+</div>
+
+<form method="post">
+    <label for="calculation-method">Calc. method:</label>
+    <select asp-for="CalcMethod">
+        <option value="add">Add</option>
+        <option value="subtract">Subtract</option>
+        <option value="multiply">Multiply</option>
+        <option value="divide">Divide</option>
+    </select>
+    <label for="first-number-input">First number:</label>
+    <input id="first-number-input" type="number" asp-for="FirstNumber"/>
+    <label for="second-number-input">Second number:</label>
+    <input id="second-number-input" type="number" asp-for="SecondNumber"/>
+    <button type="submit"/>Calculate!</button>
+</form>
