@@ -28,3 +28,4 @@ C:\Users\albin\Desktop\WebCalculator\WebCalculator\obj\Debug\net8.0\refint\WebCa
 C:\Users\albin\Desktop\WebCalculator\WebCalculator\obj\Debug\net8.0\WebCalculator.pdb
 C:\Users\albin\Desktop\WebCalculator\WebCalculator\obj\Debug\net8.0\WebCalculator.genruntimeconfig.cache
 C:\Users\albin\Desktop\WebCalculator\WebCalculator\obj\Debug\net8.0\ref\WebCalculator.dll
+C:\Users\albin\Desktop\WebCalculator\WebCalculator\obj\Debug\net8.0\WebCalculator.sourcelink.json
