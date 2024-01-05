@@ -9,8 +9,8 @@
 </div>
 
 <form method="post">
-    <div class="form-control-lg">
-        <div>
+    <div class="form-control">
+        <div class="input-group-lg">
             <label class="form-label" for="calculation-method">Calculation method:</label>
             <select class="form-select" asp-for="CalcMethod">
                 <option>--- Select method ---</option>
@@ -27,7 +27,7 @@
             <input id="second-number-input" type="number" asp-for="SecondNumber" />
         </div>
         <div class="mt-2">
-            <button type="submit">Calculate!</button>
+            <button class="btn btn-outline-dark" type="submit">Calculate!</button>
         </div>
     </div>
 </form>
